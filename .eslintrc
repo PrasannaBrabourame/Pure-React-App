@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:jest/recommended"
+    ],
+    "plugins": [
+        "jest"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "jest/valid-expect": "off",
+        "react/forbid-prop-types": "off",
+        "react/jsx-one-expression-per-line": "off"
+    }
+}
